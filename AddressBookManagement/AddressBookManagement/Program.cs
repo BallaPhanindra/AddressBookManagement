@@ -8,10 +8,10 @@ namespace AddressBookManagement
         {
             Console.WriteLine("Welcome to Address Book\n");
 
-            //CreateContact.CreateAContact();
-            AddNewContact.AddNewContacts();
-            //UpdateExistingContact.UpdateContact();
-            //DeleteContact.ContactDelete();
+            //UC1_CreateContact.CreateContact();
+            //AddNewContact.AddNewContacts();
+            UpdateExistingContact.UpdateContact();
+            //UC4_DeleteContact.ContactDelete();
             Console.ReadKey();
         }
     }
